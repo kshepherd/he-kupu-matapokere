@@ -3,7 +3,7 @@ He Kupu Matapōkere: he raraunga o kupu matapōkere i te reo Māori, mō te 'for
 Kua rato ngā kupu i **Te Kupu o te Rā** pae tukutuku (https://kupu.maori.nz).
 
 He Kupu Matapōkere: a dataset of random words, with definitions and examples, in the Māori language to use with the "fortune" application.
-The content is created by and sourced from the "Te Kupu o te Rā" website (https://kupu.maori.nz)
+The content is created by and sourced from the **Te Kupu o te Rā** website (https://kupu.maori.nz)
 
 ## License
 
@@ -89,4 +89,5 @@ If you spot any errors in the data (or in my te reo in this README!) or have any
 ## Acknowledgements
 
 https://kupu.maori.nz created all the original content used here and the site is tino pai!
+
 Samson Ootoovak inspired this work by asking if there was a way to get a 'word of the day' at login. There is now!
