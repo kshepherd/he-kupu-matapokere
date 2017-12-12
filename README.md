@@ -83,3 +83,8 @@ If you're interested in this database yu probably already know all about 'fortun
 If you spot any errors in the data (or in my te reo in this README!) or have any improvements or suggestions, please get in touch!
 * Sign up for [Github](https://github.com) and create a new issue at https://github.com/kshepherd/he-kupu-matapokere/issues
 * Drop me an email on kim@shepherd.nz or hit me up on Twitter: @kimshepherd
+
+## Acknowledgements
+
+https://kupu.maori.nz created all the original content used here and the site is tino pai!
+Samson Ootoovak inspired this work by asking if there was a way to get a 'word of the day' at login. There is now!
