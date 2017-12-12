@@ -1,5 +1,5 @@
 # He Kupu Matapōkere (A Random Word)
-He Kupu Matapōkere: he raraunga o kupu matapōkere i te reo Māori, mō te "fortune" taupānga.
+He Kupu Matapōkere: he raraunga o kupu matapōkere i te reo Māori, mō te 'fortune' taupānga.
 Kua rato ngā kupu i **Te Kupu o te Rā** pae tukutuku (https://kupu.maori.nz).
 
 He Kupu Matapōkere: a dataset of random words, with definitions and examples, in the Māori language to use with the "fortune" application.
@@ -16,7 +16,7 @@ More info at https://creativecommons.org/licenses/by-nc-sa/3.0/nz/
   * If you're a Mac (OSX) user you probably want you install it using a package manager like [homebrew](https://brew.sh) -- there's an easy three-step guide at [http://macappstore.org/fortune/](http://macappstore.org/fortune/)
   * If you're a Windows user, you might have a little more trouble... if you use a GNU environment like Cygwin you're probably OK, and there are compatible implementations of fortune out there other than the original BSD version, like [this python implementation](http://software.clapper.org/fortune/), which should run on any machine with [Python](Python) installed.
    (if you have Windows but you're not a power user and that all sounds scary or a lot of work, the best idea is to get that raw data repurposed (convince someone!) into a new form better for Windows and graphical user interfaces, perhaps a screensaver or something?)
-2. Clone this repository or download the dataset directly at [link to come]
+2. Clone this repository or download the [dataset directly](https://github.com/kshepherd/he-kupu-matapokere/archive/master.zip)
 3. Copy the **te-reo-kupu** and **te-reo-kupu.dat** files into the directory where your fortune databases (aka 'fortunes') are kept. This location will vary depending on your operating system, version of fortune, your own customisations during installation but hopefully you'll be able to find it somewhere like
   * /usr/share/games/fortunes (Linux installed by package)
   * /usr/local/share/games/fortunes (Installed with homebrew or compiled/installed manually on Linux 
@@ -45,6 +45,8 @@ But really, wiring this ```fortune te-reo-kupu``` into your login scripts (eg **
 This data was collected, with permission, by scraping Te Kupu o te Rā website: https://kupu.maori.nz.
 Te Kupu o te Rā is a tino pai te reo Māori resource, with grammar and sentence construction information as well as the Kupu o te Rā (word of the day) and Kupu o te Wiki (word of the week) with definitions and usage examples.
 There are 714 kupu in the dataset right now, and as more are added to https://kupu.maori.nz they will be scraped and added to the list.
+
+I've called it "Kupu o te wā" in the sense of "word of the moment" since you'll get a different one every time, unlike the other "of the day/week/month" services out there.
 
 **te-reo-kupu** is the plaintext file with each entry separated by a '%' on its own line
 
