@@ -2,8 +2,10 @@
 He Kupu Matapōkere: he raraunga o kupu matapōkere i te reo Māori, mō te 'fortune' taupānga.
 Kua rato ngā kupu i **Te Kupu o te Rā** pae tukutuku (https://kupu.maori.nz).
 
-He Kupu Matapōkere: a dataset of random words, with definitions and examples, in the Māori language to use with the "fortune" application.
+He Kupu Matapōkere: a dataset of random words, with definitions and examples, in the Māori language to use with the 'fortune' application.
 The content is created by and sourced from the **Te Kupu o te Rā** website (https://kupu.maori.nz)
+
+The simple idea behind this work is "see kupu matapōkere, with example usage, whenever you open a terminal/login".
 
 ## License
 
@@ -12,10 +14,9 @@ More info at https://creativecommons.org/licenses/by-nc-sa/3.0/nz/
 
 ## Quick start
 1. Got 'fortune'? If not, install it!
-  * If you're a Linux/BSD/*nix user you probably already do, if not install it with your favourite package manager!
+  * If you're a Linux/BSD/*nix user you probably already have fortune, if not install it with your favourite package manager!
   * If you're a Mac (OSX) user you probably want you install it using a package manager like [homebrew](https://brew.sh) -- there's an easy three-step guide at [http://macappstore.org/fortune/](http://macappstore.org/fortune/)
-  * If you're a Windows user, you might have a little more trouble... if you use a GNU environment like Cygwin you're probably OK, and there are compatible implementations of fortune out there other than the original BSD version, like [this python implementation](http://software.clapper.org/fortune/), which should run on any machine with [Python](Python) installed.
-   (if you have Windows but you're not a power user and that all sounds scary or a lot of work, the best idea is to get that raw data repurposed (convince someone!) into a new form better for Windows and graphical user interfaces, perhaps a screensaver or something?)
+  * If you're a Windows user, you might have a little more trouble, and we might be better off making something more suitable out of this data like screensavers or login images...
 2. Clone this repository or download the [dataset directly](https://github.com/kshepherd/he-kupu-matapokere/archive/master.zip)
 3. Copy the **te-reo-kupu** and **te-reo-kupu.dat** files into the directory where your fortune databases (aka 'fortunes') are kept. This location will vary depending on your operating system, version of fortune, your own customisations during installation but hopefully you'll be able to find it somewhere like
   * /usr/share/games/fortunes (Linux installed by package)
@@ -26,7 +27,7 @@ You can force this database by giving the name along with the command like ```fo
 
 If you're really keen as I am, you can delete all the other databases!
 
-But really, wiring this ```fortune te-reo-kupu``` into your login scripts (eg **~/.bash_profile**) is the best way to get some kupu hou in your face, here's how my Mac terminals look now:
+But really, adding ```fortune te-reo-kupu``` to the end of your  **~/.bash_profile** (or similar login script) is the best way to get some kupu hou in your face, here's how my Mac terminals look now:
 ```Last login: Wed Dec 13 10:52:17 on ttys007
    Kupu o te wā! #16: "kōwhai"
    
@@ -68,26 +69,26 @@ Here's an example of a single entry in the JSON file.
 If you make changes to the plaintext file, you can recreate the .dat file using ```strfiles``` like this:
 ```strfiles -c % te-reo-kupu te-reo-kupu.dat```
 
-If you don't want to do anything different with the data and just want the files to plug into 'fortune' then you don't need to worry about the JSON file!
+If you don't want to do anything different with the data and just want the files to plug into 'fortune' then you don't need to worry about the JSON file.
  
 ## About 'fortune'
 
 The database is designed to be used with 'fortune', a common application used in *nix systems to show random quotes, jokes, facts, and so on.
 Fortune is often run at login so when you open a new terminal in your Mac, or login to your Linux PC, for example, you see a random 'fortune cookie' as part of the login message.
 
-If you're interested in this database yu probably already know all about 'fortune' but just in case here's some extra reading:
+If you're interested in this database, you probably already know all about 'fortune' but just in case here's some extra reading:
 * https://en.wikipedia.org/wiki/Fortune_(Unix)
 * https://wiki.archlinux.org/index.php/Fortune
 * https://linux.die.net/man/6/fortune (manpage)
 
 ## Contributing
 
-If you spot any errors in the data (or in my te reo in this README!) or have any improvements or suggestions, please get in touch!
+If you spot any errors in the data (or in my te reo in this doc) or have any improvements or suggestions, please get in touch:
 * Sign up for [Github](https://github.com) and create a new issue at https://github.com/kshepherd/he-kupu-matapokere/issues
 * Drop me an email on kim@shepherd.nz or hit me up on Twitter: @kimshepherd
 
 ## Acknowledgements
 
-https://kupu.maori.nz created all the original content used here and the site is tino pai!
+https://kupu.maori.nz created all the original content used here and the site is ka rawe!
 
 Samson Ootoovak inspired this work by asking if there was a way to get a 'word of the day' at login. There is now!
